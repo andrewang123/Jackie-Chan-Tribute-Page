@@ -2,8 +2,11 @@ body{
   padding-left:2%;
   padding-right:2%;
 }
+.titleSize {
+  font-size: 40px;
+}
 // Make the header closer to the bullets
-ul li{ 
+ul li{
   margin-top: -10px;
   // make the bullets lined up with the text
   list-style-position: outside;
@@ -39,7 +42,7 @@ h2{
 }
 
 // Border and center for picture
-.borderAndCenter{ 
+.borderAndCenter{
    border: 5px solid #021a40;
 }
 
@@ -90,11 +93,11 @@ h2{
     margin-left: 1%;
     margin-right: 3%;
   }
-  ul li{ 
+  ul li{
     // make the bullets lined up with the text
     list-style-position: outside;
     // fix the margin of the text
-    margin: 0px 0px 0px -5px;  
+    margin: 0px 0px 0px -5px;
   }
   body{
     padding-left:0%;
@@ -105,6 +108,6 @@ h2{
     float: left;
     width: 50%;
     height: 50%;
-    margin: 0px 0px 0px -5px; 
+    margin: 0px 0px 0px -5px;
   }
 }

@@ -3,6 +3,9 @@ body {
   padding-right: 2%;
 }
 
+.titleSize {
+  font-size: 40px;
+}
 ul li {
   margin-top: -10px;
   list-style-position: outside;
