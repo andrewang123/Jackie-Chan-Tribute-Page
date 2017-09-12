@@ -1,0 +1,110 @@
+body{
+  padding-left:2%;
+  padding-right:2%;
+}
+// Make the header closer to the bullets
+ul li{ 
+  margin-top: -10px;
+  // make the bullets lined up with the text
+  list-style-position: outside;
+  // fix the margin of the text
+  margin: 0px 70px 0px 50px;
+  // To make the words closer to the bullet pt.
+  padding-left: -1em;
+}
+h2{
+  //font-family: "Courier New";
+  font-size: px;
+  text-align: center;
+  font-style: italic;
+}
+
+.importance{
+  font-family: "Courier New";
+  font-size: 20px;
+}
+
+.underPic{
+  font-family:  "Courier New";
+  font-size: 15px;
+  margin-top: 5px;
+}
+.centerIt{
+  text-align: center;
+}
+
+// Make the background sand color
+.sandBackground {
+  background-color: #FFEFD5;
+}
+
+// Border and center for picture
+.borderAndCenter{ 
+   border: 5px solid #021a40;
+}
+
+.endParagraph{
+  font-size: 15px;
+}
+
+.font-size{
+  font-size: 20px;
+}
+
+@media(max-width: 20000px){
+  .imgSize {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }
+  // Make the 2x2 sections
+  .left{
+    float: left;
+    width: 60px;
+    height:70px;
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+  .right{
+    float: left;
+    width: 60px;
+    height: 80px;
+    margin-right: 3%;
+  }
+  .box {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media(max-width: 510px){
+  .left{
+    visibility: hidden;
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+  .right{
+    visibility: hidden;
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+  ul li{ 
+    // make the bullets lined up with the text
+    list-style-position: outside;
+    // fix the margin of the text
+    margin: 0px 0px 0px -5px;  
+  }
+  body{
+    padding-left:0%;
+    padding-right:0%;
+  }
+  .box {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin: 0px 0px 0px -5px; 
+  }
+}

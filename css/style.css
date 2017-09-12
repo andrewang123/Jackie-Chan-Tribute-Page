@@ -1,0 +1,109 @@
+body {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+ul li {
+  margin-top: -10px;
+  list-style-position: outside;
+  margin: 0px 70px 0px 50px;
+  padding-left: -1em;
+}
+
+h2 {
+  font-size: px;
+  text-align: center;
+  font-style: italic;
+}
+
+.importance {
+  font-family: "Courier New";
+  font-size: 20px;
+}
+
+.underPic {
+  font-family: "Courier New";
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.centerIt {
+  text-align: center;
+}
+
+.sandBackground {
+  background-color: #FFEFD5;
+}
+
+.borderAndCenter {
+  border: 5px solid #021a40;
+}
+
+.endParagraph {
+  font-size: 15px;
+}
+
+.font-size {
+  font-size: 20px;
+}
+
+@media (max-width: 20000px) {
+  .imgSize {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }
+
+  .left {
+    float: left;
+    width: 60px;
+    height: 70px;
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+
+  .right {
+    float: left;
+    width: 60px;
+    height: 80px;
+    margin-right: 3%;
+  }
+
+  .box {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (max-width: 510px) {
+  .left {
+    visibility: hidden;
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+
+  .right {
+    visibility: hidden;
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+
+  ul li {
+    list-style-position: outside;
+    margin: 0px 0px 0px -5px;
+  }
+
+  body {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .box {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin: 0px 0px 0px -5px;
+  }
+}
